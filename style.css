@@ -65,7 +65,7 @@ li a {
 
 .h1Personal {
     white-space: nowrap;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .ringbellCamera {
@@ -109,14 +109,14 @@ h5 {
 }
 
 .cardAvatar {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .fsPersonal {
-    font-size: 11px;
+    font-size: 9px;
 }
 
 .saving {
@@ -125,7 +125,48 @@ h5 {
     position: relative; 
 }
 
-.cardsDimension {
-    width: 180px;
+/*.saving:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 55%;
+    transform: translate(45%, 37%);
+    background-color: grey;
+    z-index: -1;
 }
 
+.saving:hover::after {
+    z-index: 1;
+}*/
+
+.stars {
+    color: orange;
+    font-size: 9px;
+}
+
+.cardsDimension {
+    max-width: 185px;
+    min-width: 185px;
+    
+    min-height: 297px;
+}
+
+.listFooter a {
+    font-size: 12px;
+    color: #564C78;
+}
+
+.listFooter a:hover {
+    font-size: 12px;
+    color: black;
+}
+
+.bgColorFooter {
+    background-color: #F5F4F8;
+}
+
+.dnone {
+    display: none;
+}

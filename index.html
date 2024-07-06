@@ -101,8 +101,8 @@
 
     <section class="backgroundJumbotron container-fluid">
         <div class="row d-flex justify-content-md-center gap-4">
-            <div class="col-12 col-md-4 d-flex justify-content-center ps-4 pe-4 pt-4">
-                <div class="jumbotron d-md-flex flex-md-column justify-content-md-center">
+            <div class="col-12 col-md-4 d-flex justify-content-center pt-4">
+                <div class="jumbotron d-md-flex flex-md-column justify-content-md-center w-100">
                     <h1 class="h1Personal display-4 text-white fw-bold">Welcome Web Students!</h1>
                     <p class="jumboP lead">Hand-picked Instructor and expertly crafted courses, designed for the
                         modern
@@ -160,730 +160,589 @@
     </div>
 
     <!--MAIN CON LE CARDS-->
-    <!--
-    <main class="container-fluid mainSection pt-5 ps-5 pe-5">
-        <div class="row">
-            <div class="d-none col-md-2"></div>
-            <div class="col-8">
-                <h3>Recommended to you</h3>
+
+    <main class="container-fluid mainSection pt-5">
+        <div class="row mb-4 d-flex justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="col-12">
+                    <h3 class="fs-4">Recommended to you</h3>
+                </div>
+
+                <div class="row gx-2 gy-2 d-md-flex justify-content-center">
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-graphql.jpg"
+                                alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
+                                </div>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving savingBtn"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
+                                    <div class="saving savingBtn2 dnone"><ion-icon class="text-muted" name="bookmark"></ion-icon>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-javascript.jpg"
+                                alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
+                                </div>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-node.jpg" alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
+                                </div>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-laravel.jpg"
+                                alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
+                                </div>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="row d-md-flex justify-content-center">
-            <div class="col-12 col-md-8 d-flex justify-content-between flex-wrap">
-                <div class="cardsDimension col-6 col-md-2 mb-4">
-                    <div class="card overflow-hidden">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-graphql.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>GraphQL:introduction to graphQL for beginners</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>2h 40m</small></span>
+
+
+        <div class="row mb-4 d-flex justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="col-12">
+                    <h3 class="fs-4">Recommended to you</h3>
+                </div>
+
+                <div class="row gx-2 gy-2 d-md-flex justify-content-center">
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-html.jpg" alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
                                 </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Advance</small></span>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
+                                </div>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>2.5</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-javascript.jpg"
+                                alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
                                 </div>
-                                <span class="text-muted"><small>(1,500)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$500</strong></span>
-                                <span class="text-muted"><small><del>$600</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
                                 </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-node.jpg" alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
+                                </div>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-react.jpg" alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
+                                </div>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="cardsDimension col-6 col-md-2">
-                    <div class="card overflow-hidden">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-graphql.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>GraphQL:introduction to graphQL for beginners</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>2h 40m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Advance</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>2.5</span>
-                                </div>
-                                <span class="text-muted"><small>(1,500)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$500</strong></span>
-                                <span class="text-muted"><small><del>$600</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Brooklyn Simmons</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardsDimension col-6 col-md-2">
-                    <div class="card overflow-hidden">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-graphql.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>GraphQL:introduction to graphQL for beginners</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>2h 40m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Advance</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>2.5</span>
-                                </div>
-                                <span class="text-muted"><small>(1,500)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$500</strong></span>
-                                <span class="text-muted"><small><del>$600</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Brooklyn Simmons</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardsDimension col-6 col-md-2">
-                    <div class="card overflow-hidden">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-graphql.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>GraphQL:introduction to graphQL for beginners</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>2h 40m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Advance</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>2.5</span>
-                                </div>
-                                <span class="text-muted"><small>(1,500)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$500</strong></span>
-                                <span class="text-muted"><small><del>$600</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Brooklyn Simmons</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
+        </div>
 
+        <div class="row pb-5 d-flex justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="col-12">
+                    <h3 class="fs-4">Recommended to you</h3>
+                </div>
 
+                <div class="row gx-2 gy-2 d-md-flex justify-content-center">
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-gatsby.jpg" alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
+                                </div>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-html.jpg" alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
+                                </div>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-node.jpg" alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
+                                </div>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card overflow-hidden h-100">
+                            <img class="card-img-top object-fit-cover" src="assets/assets/course-laravel.jpg"
+                                alt="logo">
+                            <div class="card-body p-2">
+                                <h5>GraphQL:introduction to graphQL for beginners</h5>
+                                <div class="d-flex text-muted gap-2 mb-2">
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <span><small>2h 40m</small></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center gap-1">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <span><small>Advance</small></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 mb-2">
+                                    <div class="stars d-flex align-items-center justify-content-center gap-1">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>2.5</span>
+                                    </div>
+                                    <span class="text-muted"><small>(1,500)</small></span>
+                                </div>
+                                <div class="mb-2">
+                                    <span><strong>$500</strong></span>
+                                    <span class="text-muted"><small><del>$600</del></small></span>
+                                </div>
+                                <div class="cardDivider mb-2"></div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-center gap-1">
+                                        <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
+                                        <span class="text-muted fsPersonal">Brooklyn Simmons</span>
+                                    </div>
+                                    <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
         </div>
     </main>
--->
 
-    <main class="container-fluid mainSection pt-5 ps-5 pe-5">
-        <div class="row mb-4">
-            <div class="d-none col-md-2"></div>
-            <div class="col-8">
-                <h3>Recommended to you</h3>
+    <!--FOOTER-->
+
+<footer class="container-fluid bgColorFooter">
+    <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-8">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
+                    <span>2022 Geeks. All Rights Reserved.</span>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+                    <ul class="d-flex listFooter list-unstyled gap-4 align-items-center mb-0">
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms</a>
+                        </li>
+                        <li>
+                            <a href="#">Feedback</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="row gx-3 gy-2 d-md-flex justify-content-center ps-md-5 pe-md-5">
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-graphql.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>GraphQL:introduction to graphQL for beginners</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>2h 40m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Advance</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>2.5</span>
-                                </div>
-                                <span class="text-muted"><small>(1,500)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$500</strong></span>
-                                <span class="text-muted"><small><del>$600</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Brooklyn Simmons</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-javascript.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>Acomplete Beginner's Guide to JavaScript</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>4h 10m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Advance</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>3.5</span>
-                                </div>
-                                <span class="text-muted"><small>(7,500)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$700</strong></span>
-                                <span class="text-muted"><small><del>$850</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-1.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Jenny Wilson</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-node.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>Beginning Node.js, Express & MongoDB Development</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>2h 00m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Intermediate</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>4.0</span>
-                                </div>
-                                <span class="text-muted"><small>(15,700)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$800</strong></span>
-                                <span class="text-muted"><small><del>$950</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-3.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Sina Ray</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100 ">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-laravel.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>Lavarel: The Ultimate Beginner's Guide to Learn graphQL for beginners</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>1h 00m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Beginner</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>4.5</span>
-                                </div>
-                                <span class="text-muted"><small>(2,500)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$170</strong></span>
-                                <span class="text-muted"><small><del>$220</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-7.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Sobo Rikhan</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    </div>
+</footer>
 
-
-        </div>
-
-        <div class="row mb-4 mt-5">
-            <div class="d-none col-md-2"></div>
-            <div class="col-8">
-                <h3>Most Popular</h3>
-            </div>
-        </div>
-        <div class="row gx-2 gy-2 d-md-flex justify-content-center ps-md-5 pe-md-5">
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-html.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>HTML Full Course - Build a Website Tutorial</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>3h 16m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Beginner</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>3.0</span>
-                                </div>
-                                <span class="text-muted"><small>(1,600)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$550</strong></span>
-                                <span class="text-muted"><small><del>$700</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-8.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Mitson Wilson</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-javascript.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>Acomplete Beginner's Guide to JavaScript</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>4h 10m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Advance</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>3.5</span>
-                                </div>
-                                <span class="text-muted"><small>(7,500)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$700</strong></span>
-                                <span class="text-muted"><small><del>$850</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-1.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Jenny Wilson</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-node.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>Beginning Node.js, Express & MongoDB Development</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>2h 00m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Intermediate</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>4.0</span>
-                                </div>
-                                <span class="text-muted"><small>(15,700)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$800</strong></span>
-                                <span class="text-muted"><small><del>$950</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-3.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Sina Ray</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-react.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>How to easily create a website with React</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>3h 55m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Advance</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>4.5</span>
-                                </div>
-                                <span class="text-muted"><small>(1,500)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$600</strong></span>
-                                <span class="text-muted"><small><del>$750</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-2.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">April Noms</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-        </div>
-
-        <div class="row mb-4 mt-5">
-            <div class="d-none col-md-2"></div>
-            <div class="col-8">
-                <h3>Trending</h3>
-            </div>
-        </div>
-        <div class="row gx-2 gy-2 d-md-flex justify-content-center ps-md-5 pe-md-5 h-100">
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-gatsby.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>Revolutionize how you Build the web</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>1h 46m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Intermediate</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>2.0</span>
-                                </div>
-                                <span class="text-muted"><small>(16,500)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$800</strong></span>
-                                <span class="text-muted"><small><del>$850</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-6.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Jenny Wilson</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-html.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>HTML Full Course - Build a Website Tutorial</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>3h 16m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Beginner</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>3.0</span>
-                                </div>
-                                <span class="text-muted"><small>(1,600)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$550</strong></span>
-                                <span class="text-muted"><small><del>$700</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-8.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Mitson Wilson</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-node.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>Beginning Node.js, Express & MongoDB Development</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>2h 00m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Intermediate</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>4.0</span>
-                                </div>
-                                <span class="text-muted"><small>(15,700)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$800</strong></span>
-                                <span class="text-muted"><small><del>$950</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-3.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Sina Ray</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card overflow-hidden h-100">
-                        <img class="card-img-top object-fit-cover" src="assets/assets/course-laravel.jpg" alt="logo">
-                        <div class="card-body">
-                            <h5>Lavarel: The Ultimate Beginner's Guide to Learn graphQL for beginners</h5>
-                            <div class="d-flex align-items-center text-muted gap-2 mb-2">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <span><small>1h 00m</small></span>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="stats-chart-outline"></ion-icon>
-                                    <span><small>Beginner</small></span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-1 mb-2">
-                                <div class="stars d-flex align-items-center justify-content-center gap-1">
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <ion-icon name="star-outline"></ion-icon>
-                                    <span>4.5</span>
-                                </div>
-                                <span class="text-muted"><small>(2,500)</small></span>
-                            </div>
-                            <div class="mb-2">
-                                <span><strong>$170</strong></span>
-                                <span class="text-muted"><small><del>$220</del></small></span>
-                            </div>
-                            <div class="cardDivider mb-2"></div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center gap-1">
-                                    <img class="cardAvatar" src="assets/assets/avatar-7.jpg" alt="Brooklyn Simmons">
-                                    <span class="text-muted fsPersonal">Sobo Rikhan</span>
-                                </div>
-                                <div class="saving"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-        </div>
-    </main>
+    <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
