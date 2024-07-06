@@ -1,0 +1,130 @@
+.personal {
+    border: 1px solid black;
+}
+
+.imgUser {
+    width: 50px;
+    height: 50px;
+}
+
+.ringbell {
+    width: 50px;
+    height: 50px;
+    background-color: #E2E1E5;
+}
+
+.ringbellIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.btnPersonal {
+    color: #7550FE;
+    border: 1px solid #7550FE;
+}
+
+.btnPersonal:hover {
+    color: #7550FE;
+    border: 1px solid white;
+}
+
+.buttonIcon {
+    width: 35px;
+    height: 35px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.backgroundJumbotron {
+    background-color: #7550FE;
+}
+
+.jumboP {
+    color:#b1b1b1;
+    font-size: 22px;
+}
+
+.button1 {
+    padding: 13px;
+    background-color: #1ACB98;
+    font-size: 13px;
+}
+
+.button2 {
+    padding: 13px;
+    background-color: white;
+    font-size: 13px;
+}
+
+.dimension {
+    width: 320px;
+}
+
+.h1Personal {
+    white-space: nowrap;
+    font-size: 30px;
+}
+
+.ringbellCamera {
+    width: 50px;
+    height: 50px;
+    background-color: #FFEEDA;
+    border-radius: 50%;
+}
+
+.ringbellIconCamera {
+    width: 20px;
+    height: 20px;
+    color: #C28131;
+}
+
+.nowrappa {
+    color: #19113C;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+span {
+    color: #564C78;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.mainSection {
+    background-color: #F5F4F8;
+}
+
+h5 {
+    font-size: 13px;
+}
+
+.cardDivider {
+    background-color: grey;
+    width: 100%;
+    height: 1px;
+    padding: 0;
+}
+
+.cardAvatar {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.fsPersonal {
+    font-size: 11px;
+}
+
+.saving {
+    font-size: 12px;
+    color: grey;
+    position: relative; 
+}
+
+.cardsDimension {
+    width: 180px;
+}
