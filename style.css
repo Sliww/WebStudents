@@ -249,3 +249,9 @@ body.permanent #guy {
     transform: translateX(0);
     opacity: 1;
 }
+
+.btnPersonal1 {
+    color: #7550FE;
+    border: none;
+    background: none;
+}
