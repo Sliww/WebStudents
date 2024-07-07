@@ -10,7 +10,7 @@
 .ringbell {
     width: 50px;
     height: 50px;
-    background-color: #E2E1E5;
+    background-color: #ebebeb;
 }
 
 .ringbellIcon {
@@ -51,12 +51,14 @@ li a {
     padding: 13px;
     background-color: #1ACB98;
     font-size: 13px;
+    border: none;
 }
 
 .button2 {
     padding: 13px;
     background-color: white;
     font-size: 13px;
+    border: none;
 }
 
 .dimension {
@@ -169,4 +171,81 @@ h5 {
 
 .dnone {
     display: none;
+}
+
+.card {
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.cardContainer:hover .card {
+    opacity: 0.5;
+}
+
+.cardContainer:hover .card:hover {
+    opacity: 1;
+}
+
+#firstIcon {
+    transform: translateX(-200%);
+    transition: all ease-in-out 1.3s;
+    opacity: 0;
+}
+
+#secondIcon {
+    transform: translateX(-300%);
+    transition: all ease-in-out 1s;
+    opacity: 0;
+}
+
+#thirdIcon {
+    transform: translateX(-400%);
+    transition: all ease-in-out 0.7s;
+    opacity: 0;
+}
+
+body:hover #firstIcon {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+body:hover #secondIcon {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+body:hover #thirdIcon {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+body.permanent #firstIcon {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+body.permanent #secondIcon {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+body.permanent #thirdIcon {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+#guy {
+    transform: translateX(200%);
+    transition: all ease-in-out 0.7s;
+    opacity: 0;
+}
+
+body.permanent #guy {
+    transform: translateX(0);
+    opacity: 1;
 }

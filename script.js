@@ -1,3 +1,14 @@
+//Add event che carica la transition solo al primo caricamento della pagina 
+
+document.body.addEventListener('mouseover', function() {
+    document.body.classList.add('permanent');
+}, { once: true });
+
+
+
+
+
+
 const savingBtn = document.querySelector(".savingBtn");
 const savingBtn2 = document.querySelector(".savingBtn2");
 

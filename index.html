@@ -57,7 +57,7 @@
                 <div class="d-none d-md-flex align-items-center ms-3">
                     <ul class="d-none d-md-flex listMenu list-unstyled gap-5 align-items-center mb-0">
                         <li>
-                            <a class="dropdown-center" href="#">Home</a>
+                            <a href="#">Home</a>
                         </li>
                         <li>
                             <a href="#">Store</a>
@@ -75,7 +75,7 @@
             <div class="col-6 col-md-4 d-flex align-items-center justify-content-end">
                 <div class="d-flex justify-content-end align-items-center gap-2">
                     <div class="ringbell rounded-circle d-flex justify-content-center align-items-center">
-                        <ion-icon class="ringbellIcon" name="notifications-outline"></ion-icon>
+                        <ion-icon class="ringbellIcon text-muted" name="notifications-outline"></ion-icon>
                     </div>
                     <div>
                         <img class="imgUser rounded-circle" src="assets/assets/avatar-1.jpg" alt="logo">
@@ -108,12 +108,12 @@
                         modern
                         students and entrepreneur.</p>
                     <div class="d-flex gap-1 mb-5">
-                        <button class="button1 btn fw-bold text-white rounded-1">Browse Courses</button>
-                        <button class="button2 btn fw-bold rounded-1">Are You Instructor?</button>
+                        <button class="button1 fw-bold text-white rounded-1">Browse Courses</button>
+                        <button class="button2 fw-bold rounded-1">Are You Instructor?</button>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 d-flex justify-content-center align-items-end">
+            <div id="guy" class="col-12 col-md-4 d-flex justify-content-center align-items-end">
                 <div>
                     <img class="object-fit-cover dimension" src="assets/assets/hero-img.png" alt="">
                 </div>
@@ -127,7 +127,7 @@
         <div class="row d-flex justify-content-center ">
             <div class="col-12 col-md-12 d-flex align-items-center justify-content-center gap-5">
                 <div class="row">
-                    <div class="col-12 col-md-4 d-flex align-items-center justify-content-center gap-2">
+                    <div id="firstIcon" class="col-12 col-md-4 d-flex align-items-center justify-content-center gap-2">
                         <div class="ringbellCamera col-1 d-flex justify-content-center align-items-center p-2">
                             <ion-icon class="ringbellIconCamera" name="videocam-outline"></ion-icon>
                         </div>
@@ -136,7 +136,7 @@
                             <span>Enjoy a variety of fresh topics</span>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 d-flex align-items-center justify-content-center gap-2">
+                    <div id="secondIcon" class="col-12 col-md-4 d-flex align-items-center justify-content-center gap-2">
                         <div class="ringbellCamera col-1 d-flex justify-content-center align-items-center p-2">
                             <ion-icon class="ringbellIconCamera" name="people-outline"></ion-icon>
                         </div>
@@ -145,7 +145,7 @@
                             <span>Find the right instruction for you</span>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 d-flex align-items-center justify-content-center gap-2">
+                    <div id="thirdIcon" class="col-12 col-md-4 d-flex align-items-center justify-content-center gap-2">
                         <div class="ringbellCamera col-1 d-flex justify-content-center align-items-center p-2">
                             <ion-icon class="ringbellIconCamera" name="time-outline"></ion-icon>
                         </div>
@@ -164,11 +164,11 @@
     <main class="container-fluid mainSection pt-5">
         <div class="row mb-4 d-flex justify-content-center">
             <div class="col-12 col-lg-8">
-                <div class="col-12">
+                <div class="col-12 pb-3">
                     <h3 class="fs-4">Recommended to you</h3>
                 </div>
 
-                <div class="row gx-2 gy-2 d-md-flex justify-content-center">
+                <div class="cardContainer row gx-2 gy-2 d-md-flex justify-content-center">
                     <div class="col-6 col-md-3">
                         <div class="card overflow-hidden h-100">
                             <img class="card-img-top object-fit-cover" src="assets/assets/course-graphql.jpg"
@@ -176,11 +176,11 @@
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="stats-chart-outline"></ion-icon>
                                         <span><small>Advance</small></span>
                                     </div>
@@ -206,11 +206,13 @@
                                         <img class="cardAvatar" src="assets/assets/avatar-5.jpg" alt="Brooklyn Simmons">
                                         <span class="text-muted fsPersonal">Brooklyn Simmons</span>
                                     </div>
-                                    <div class="saving savingBtn"><ion-icon class="text-muted" name="bookmark-outline"></ion-icon>
+                                    <div class="saving savingBtn"><ion-icon class="text-muted"
+                                            name="bookmark-outline"></ion-icon>
                                     </div>
-                                    <div class="saving savingBtn2 dnone"><ion-icon class="text-muted" name="bookmark"></ion-icon>
+                                    <div class="saving savingBtn2 dnone"><ion-icon class="text-muted"
+                                            name="bookmark"></ion-icon>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -222,11 +224,11 @@
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="stats-chart-outline"></ion-icon>
                                         <span><small>Advance</small></span>
                                     </div>
@@ -264,11 +266,11 @@
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="stats-chart-outline"></ion-icon>
                                         <span><small>Advance</small></span>
                                     </div>
@@ -307,11 +309,11 @@
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="stats-chart-outline"></ion-icon>
                                         <span><small>Advance</small></span>
                                     </div>
@@ -351,18 +353,18 @@
 
         <div class="row mb-4 d-flex justify-content-center">
             <div class="col-12 col-lg-8">
-                <div class="col-12">
+                <div class="col-12 pb-3">
                     <h3 class="fs-4">Recommended to you</h3>
                 </div>
 
-                <div class="row gx-2 gy-2 d-md-flex justify-content-center">
+                <div class="cardContainer row gx-2 gy-2 d-md-flex justify-content-center">
                     <div class="col-6 col-md-3">
                         <div class="card overflow-hidden h-100">
                             <img class="card-img-top object-fit-cover" src="assets/assets/course-html.jpg" alt="logo">
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
@@ -405,11 +407,11 @@
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="stats-chart-outline"></ion-icon>
                                         <span><small>Advance</small></span>
                                     </div>
@@ -447,11 +449,11 @@
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="stats-chart-outline"></ion-icon>
                                         <span><small>Advance</small></span>
                                     </div>
@@ -489,11 +491,11 @@
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="stats-chart-outline"></ion-icon>
                                         <span><small>Advance</small></span>
                                     </div>
@@ -532,22 +534,22 @@
 
         <div class="row pb-5 d-flex justify-content-center">
             <div class="col-12 col-lg-8">
-                <div class="col-12">
+                <div class="col-12 pb-3">
                     <h3 class="fs-4">Recommended to you</h3>
                 </div>
 
-                <div class="row gx-2 gy-2 d-md-flex justify-content-center">
+                <div class="cardContainer row gx-2 gy-2 d-md-flex justify-content-center">
                     <div class="col-6 col-md-3">
                         <div class="card overflow-hidden h-100">
                             <img class="card-img-top object-fit-cover" src="assets/assets/course-gatsby.jpg" alt="logo">
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="stats-chart-outline"></ion-icon>
                                         <span><small>Advance</small></span>
                                     </div>
@@ -585,11 +587,11 @@
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="stats-chart-outline"></ion-icon>
                                         <span><small>Advance</small></span>
                                     </div>
@@ -627,11 +629,11 @@
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="stats-chart-outline"></ion-icon>
                                         <span><small>Advance</small></span>
                                     </div>
@@ -670,11 +672,11 @@
                             <div class="card-body p-2">
                                 <h5>GraphQL:introduction to graphQL for beginners</h5>
                                 <div class="d-flex text-muted gap-2 mb-2">
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="time-outline"></ion-icon>
                                         <span><small>2h 40m</small></span>
                                     </div>
-                                    <div class="d-flex justify-content-center gap-1">
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
                                         <ion-icon name="stats-chart-outline"></ion-icon>
                                         <span><small>Advance</small></span>
                                     </div>
@@ -714,33 +716,33 @@
 
     <!--FOOTER-->
 
-<footer class="container-fluid bgColorFooter">
-    <div class="row d-flex justify-content-center">
-        <div class="col-12 col-lg-8">
-            <div class="row">
-                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
-                    <span>2022 Geeks. All Rights Reserved.</span>
-                </div>
-                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
-                    <ul class="d-flex listFooter list-unstyled gap-4 align-items-center mb-0">
-                        <li>
-                            <a href="#">Privacy</a>
-                        </li>
-                        <li>
-                            <a href="#">Terms</a>
-                        </li>
-                        <li>
-                            <a href="#">Feedback</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                    </ul>
+    <footer class="container-fluid bgColorFooter">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
+                        <span>2022 Geeks. All Rights Reserved.</span>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+                        <ul class="d-flex listFooter list-unstyled gap-4 align-items-center mb-0">
+                            <li>
+                                <a href="#">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms</a>
+                            </li>
+                            <li>
+                                <a href="#">Feedback</a>
+                            </li>
+                            <li>
+                                <a href="#">Support</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
